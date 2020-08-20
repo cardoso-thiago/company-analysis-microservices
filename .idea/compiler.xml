@@ -22,17 +22,19 @@
           <entry name="$MAVEN_REPOSITORY$/joda-time/joda-time/2.9/joda-time-2.9.jar" />
         </processorPath>
         <module name="company-registration-app" />
-        <module name="validate-capital" />
       </profile>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="company-report" />
+        <module name="validate-capital" />
         <module name="eureka-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="company-registration-app" target="1.8" />
+      <module name="company-report" target="1.8" />
       <module name="company-validation-app" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="validate-capital" target="1.8" />
@@ -41,6 +43,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="company-registration-app" options="-parameters" />
+      <module name="company-report" options="-parameters" />
       <module name="company-validation-app" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="validate-capital" options="-parameters" />

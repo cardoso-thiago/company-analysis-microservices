@@ -5,6 +5,8 @@
       <list>
         <option value="$PROJECT_DIR$/company-registration-app/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/validate-capital/pom.xml" />
+        <option value="$PROJECT_DIR$/company-report/pom.xml" />
       </list>
     </option>
   </component>
